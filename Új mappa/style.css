@@ -1,0 +1,28 @@
+:root{
+    --bg-color: #202632;
+    --bg-container: #313A49;
+    --primary: #53FFAB;
+    --secondary: #CBDEE5;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.container{
+    background-color: var(--bg-container);
+    padding: ;
+}
+
+#dice{
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+#dice:hover
